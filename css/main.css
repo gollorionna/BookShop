@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url(../fonts/Pacifico-Regular.ttf) format('truetype');
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ac9063;
+    color:rgb(30, 28, 28);
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.firstScreen {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.firstScreen_text {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.215);
+    color: #ffd500;
+}
+.firstScreenTitle {
+    font-size: 60px;
+    margin: 20px;
+    font-family: Pacifico-Regular;
+    font-weight: bold;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    line-height: 93px;
+    /* text-transform: uppercase; */
+    text-shadow: 3px 4px 1px red;
+}
+.firstScreenSubTitle {
+    font-size: 40px;
+    font-family: Pacifico-Regular;
+    font-weight: normal;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    line-height: 93px;
+    text-shadow: 3px 4px 1px red;
+}
+.firstScreen_video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.firstScreen_video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.all{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #dac8aa;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #dac8aa;
+    position: relative;
+}
+
+.text{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #dac8aa;
+}
+
+.text p{
+    margin: 0 0 20px 0;
+}
+
+.carousel {
+    width: 400px;
+    height: 600px;
+}
+
+.new{
+    position: absolute;
+    letter-spacing: normal;
+    font-size: 40px;
+    color: #ffd500;
+    text-shadow: 2px 2px 1px red;
+    transform: translate(704px, -551px);
+}
+
+.accordion{
+    position: absolute;
+    transform: translate(250px, -200px);
+    width: 600px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

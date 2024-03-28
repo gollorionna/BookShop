@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжный магазин</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icons8-книга-32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="firstScreen">
+        <div class="firstScreen_text">
+            <div class="firstScreenTitle">
+                Книжный магазин
+            </div>
+            <div class="firstScreenSubTitle">
+                У нас есть всё!
+            </div>
+        </div>
+        <div class="firstScreen_video">
+            <video src="video/students_-_63328 (540p).mp4" muted autoplay loop></video>
+        </div>
+    </div>
+    <div class="all">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Новинки</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Каталог</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Доставка</a>
+            </li>
+          </ul>
+        <div class="wrapper">
+            <div class="carousel1">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/1984.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/о дивный.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/заводной апельсин.png" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+            </div>
+            <div class="new">
+                Новинки!
+            </div>
+            <div class="accordion">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Джордж Оруэлл, "1984"
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Название романа автор получил перестановкой последних цифр года написания. В 1948 появилось произведение “1984” ( издано в 1949 г.).
+                            Тематически, роман посвящён последствиям тоталитаризма, массового наблюдения и промывания мозгов людей в тоталитарном обществе. Оруэлл, демократический социалист, создал тоталитарное государство в романе по образцу сталинского СССР и нацистской Германии.
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Олдос Хаксли, "О дивный новый мир"
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Антиутопический сатирический роман английского писателя Олдоса Хаксли, опубликованный в 1932 году. Роман был ответом на «Современную утопию» и «Люди как боги» Герберта Уэллса, автор в основном отталкивался от работы Бертрана Рассела «Научное мировоззрение» (1931), предостерегавшей от возможного в будущем захвата власти кучкой интеллектуалов-технократов.</div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Энтони Бёрджесс, "Заводной апельсин"
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> Роман Энтони Бёрджесса, написанный в 1962 году. Роман лёг в основу одноимённого фильма, снятого в 1971 году Стэнли Кубриком. Бёрджесс написал свой роман после того, как врачи диагностировали у него опухоль мозга и заявили, что жить ему осталось около года. Название «Заводной апельсин» (англ. A Clockwork Orange) роман получил от выражения, которое когда-то было в ходу среди лондонских кокни — обитателей рабочих кварталов Ист-Энда. Кокни старшего поколения о вещах необычных или странных говорят, что они «кривые, как заводной апельсин», то есть это вещи самого что ни на есть причудливого и непонятного толка. Энтони Бёрджесс семь лет прожил в Малайзии, а на малайском языке слово «orang» значит «человек», а на английском «orange» — «апельсин»</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text">
+        </div>
+        <div class="footer">
+            <nav aria-label="Пример навигации по страницам">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Предыдущая">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Следующая">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
